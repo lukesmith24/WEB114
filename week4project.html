@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+
+<!-- Luke Smith 4/8/25--> 
+
+<!-- Question 1: When would you use a switch statement in your projects? 
+     Answer 1: I would use a switch statment when I am testing a variable
+     that can have multiple outcomes and don't want to use a bunch of 
+     if statements. -->
+
+<html lang="en"> 
+    <head> 
+        <title> My JS template page </title>
+        <meta charset= "utf-8">
+    </head>
+    <body>
+
+   <h1>  Hi, I am just testing some js code here.  </h1>
+
+    <script>
+        const favDay = prompt("What is your favorite day of the week? (e.g., Monday, Tuesday)");
+    switch (favDay.toLowerCase()) {
+    case "monday":
+    console.log("Monday is a great day to start the week off strong!");
+    break;
+    case "tuesday":
+    console.log("Tuesdays are great days!");
+    break;
+    case "wednesday":
+    console.log("Wednesdays are awesome, half way through the week!");
+    break;
+    case "thursday":
+    console.log("Thursdays rock, almost to the weekend!");
+    break;
+    case "friday":
+    console.log(
+    "Fridays are the best, the weekend is here!"
+    );
+    break;
+    default:
+    console.log("That isn't a day of the week, please try again!");
+    }
+    </script>
+    </body>
+</html>
